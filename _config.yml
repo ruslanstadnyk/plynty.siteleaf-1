@@ -1,0 +1,35 @@
+---
+title: plynty website
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  authors:
+    title: authors
+    output: true
+  blogs:
+    title: blogs
+    output: true
+  products:
+    title: products
+    output: true
+  support-articles:
+    title: support articles
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
