@@ -21,10 +21,12 @@ body {
 
 header {
     background-color: #9E9E9E;
-    padding-left: 2rem;
     position: fixed;
+    top: 0;
     width: 100%;
-    opacity: .90;
+    opacity: .75;
+    box-sizing: border-box;
+    z-index: 1;
 }
 
 header .row {
