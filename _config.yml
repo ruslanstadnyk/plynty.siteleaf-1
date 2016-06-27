@@ -14,8 +14,14 @@ collections:
   blogs:
     title: blogs
     output: true
+  formats:
+    title: formats
+    output: true
   products:
     title: products
+    output: true
+  sections:
+    title: sections
     output: true
   support-articles:
     title: support articles
@@ -32,4 +38,6 @@ defaults:
     type: pages
   values:
     layout: page
-permalink: pretty
+email: pfischer@vizuri.com
+markdown: kramdown
+

@@ -1,0 +1,28 @@
+.background main {
+  background-color: #ececec;
+}
+
+.background section {
+  border-bottom: .1rem solid lightgrey;
+}
+
+.background section h1 {
+  color: #e73074;
+}
+
+.background h1.name, .background h2.title {
+  font-size: 1.4rem;
+}
+
+.background section:nth-child(2) {
+  background-color: #CED83E;
+  padding-bottom: 1rem;
+}
+
+.background section .row {
+  padding: 4rem;
+}
+
+.background section:nth-child(1) img {
+  display: block;
+}

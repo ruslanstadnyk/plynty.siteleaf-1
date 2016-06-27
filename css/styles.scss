@@ -1,0 +1,109 @@
+---
+---
+
+@import "home";
+@import "app";
+@import "background";
+@import "blog";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.1rem;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: #9E9E9E;
+    padding-left: 2rem;
+    position: fixed;
+    width: 100%;
+    opacity: .90;
+}
+
+header .row {
+    padding: 1rem;
+}
+
+nav {
+    padding-right: 3rem !important;
+}
+
+.nav-item {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a {
+    padding: 1.4rem;
+    font-size: 1.6rem;
+}
+
+nav a:hover {
+    background: gray;
+}
+
+footer {
+    margin: auto;
+}
+
+footer h1 {
+    font-size: 3.6rem;
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+
+footer form {
+    margin: auto;
+}
+
+footer .row {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+footer .row:nth-child(1) {
+    background-color: #3ebeb0;
+    padding-bottom: 4.2rem;
+}
+
+footer .row:nth-child(2) {
+    background-color: #2f7268;
+    padding: 1.2rem;
+}
+
+footer .row:nth-child(2) a {
+    font-size: 1.4rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.md-accent {
+    background-color: #e73074;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+.md-outline {
+    background-color: #ffffff;
+    border: .1rem solid #e73074;
+    text-transform: lowercase;
+    color: #e73074 !important;
+}
+
+.md-outline-blue {
+    background-color: #ffffff;
+    border: .1rem solid darkblue;
+    text-transform: lowercase;
+    color: darkblue !important;
+}

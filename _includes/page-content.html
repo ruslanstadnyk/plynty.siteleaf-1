@@ -1,0 +1,50 @@
+<main class="{{include.page}}">
+
+  <!-- get each section for the page and sort by position -->
+  {% assign sections = site.sections | where: 'page', {{include.page}} | sort: 'position' %}
+
+  <!-- process each section -->
+  {% for section in sections %}
+
+      <section>
+
+        {% if section.format == 'big-image' %}
+          <img src="uploads/{{section.image}}" width="100%">
+        {% endif %}
+
+        {% if section.format == 'image-right' %}
+          <div class="row middle-xs center-xs">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm start-md start-lg">
+              <p>{{section.content}}</p>
+              <button class="md-button md-raised md-accent">get the app</button>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs">
+              <img src="uploads/{{section.image}}" height="250">
+            </div>
+          </div>
+        {% endif %}
+
+        {% if section.format == 'full' %}
+          <div class="row middle-xs center-xs">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              {{section.content}}
+              <button class="md-button md-raised md-accent">download the app</button>
+            </div>
+          </div>
+        {% endif %}
+
+        {% if section.format == 'image-left' %}
+          <div class="row middle-xs">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs">
+              <img src="uploads/{{section.image}}">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm start-md start-lg">
+              {{section.content}}
+              <button class="md-button md-outline">the path in detail</button>
+            </div>
+        {% endif %}
+
+      </section>
+
+  {% endfor %}
+</main>
