@@ -51,7 +51,7 @@ module.exports = function(grunt) {
           process: true
         },
         files: {
-          'index.html': ['src/index.html']
+          'index.html': ['src/index.md']
         }
       }
     },
