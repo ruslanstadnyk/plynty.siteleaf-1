@@ -7,4 +7,6 @@ layout: default
 ---
 
 # money is in your hands
-stay on track for lifelong cashflow by keeping your path in your pocket
+stay on track for lifelong cashflow by keeping your path in your pocket.
+
+{% include button.html label="get the app" style="primary" %}

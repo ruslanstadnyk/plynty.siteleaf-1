@@ -3,7 +3,7 @@ title: app.money-has-a-home
 position: 6
 format: image-left
 page: app
-image: mobile2.png
+image: mobile5.png
 layout: default
 ---
 

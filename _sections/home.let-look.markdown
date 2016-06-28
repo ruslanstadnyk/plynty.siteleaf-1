@@ -7,5 +7,6 @@ image: viewfinder.png
 layout: default
 ---
 
-# lets look at money differently again
+# lets look at money differently
+{% include button.html label="get the app" style="primary" %}
 

@@ -26,3 +26,16 @@
 .background section:nth-child(1) img {
   display: block;
 }
+
+.background .photo-container p {
+  display: flex;
+}
+
+.background .photo-container img {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  width: 200px;
+}
+
+

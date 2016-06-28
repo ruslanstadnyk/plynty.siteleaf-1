@@ -3,7 +3,7 @@ title: app.money-works-on-your-schedule
 position: 5
 format: image-right
 page: app
-image: mobile2.png
+image: mobile4.png
 layout: default
 ---
 

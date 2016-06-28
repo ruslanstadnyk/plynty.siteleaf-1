@@ -3,7 +3,7 @@ title: app.money-is-an-open-book
 position: 4
 format: image-left
 page: app
-image: mobile2.png
+image: mobile3.png
 layout: default
 ---
 
