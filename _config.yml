@@ -33,7 +33,7 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    image: '',
+    image: ''
     category: ''
 - scope:
     path: ''
