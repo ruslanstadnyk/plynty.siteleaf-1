@@ -34,7 +34,7 @@ defaults:
     layout: post
     permalink: "/posts/:title/"
     image: ''
-    category: ''
+    author: ''
 - scope:
     path: ''
     type: pages
