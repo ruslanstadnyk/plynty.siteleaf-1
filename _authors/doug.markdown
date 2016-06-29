@@ -1,5 +1,5 @@
 ---
-title: Doug
+title: Doug Schnelzer
 date: 2016-06-17 16:53:00 Z
 ---
 

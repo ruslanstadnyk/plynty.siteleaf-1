@@ -1,0 +1,19 @@
+<main class="blog">
+
+  {% assign posts = site.posts %}
+  <section>
+    {% for post in posts %}
+      <article>
+        <div class="row">
+          <div class="col-xs-4">
+            <img src="/uploads/{{post.image}}">
+          </div>
+          <div class="col-xs-8">
+            <h1>{{post.title}}</h1>
+            {{post.content}}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+</main>
