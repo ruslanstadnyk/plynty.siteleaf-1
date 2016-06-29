@@ -4,6 +4,7 @@ date: 2016-06-28 12:50:00 Z
 categories:
 - news
 image: blocks.png
+author: Doug Schnelzer
 ---
 
 when text is a preview of the article, to read the entire article, click the image above of the title which will link to a separate page.
