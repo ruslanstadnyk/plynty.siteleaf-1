@@ -1,19 +1,35 @@
-<main class="blog">
+<main class="blog" style="margin-top: 100px; margin-left:50px; margin-right: 50px;">
 
   {% assign posts = site.posts %}
-  <section>
-    {% for post in posts %}
+
+  <div class="row">
+
+    <section class="col-xs-8 listing">
+      {% for post in posts %}
       <article>
-        <div class="row">
+        <div class="row top-xs">
           <div class="col-xs-4">
-            <img src="/uploads/{{post.image}}">
+            <img src="{{post.image}}" width="200">
           </div>
           <div class="col-xs-8">
+            <div>{{post.categories}}</div>
             <h1>{{post.title}}</h1>
             {{post.content}}
           </div>
         </div>
       </article>
-    {% endfor %}
-  </section>
+      {% endfor %}
+    </section>
+
+    <section class="col-xs-4 index">
+      <h1>recently added</h1>
+      <ul>
+      {% for post in posts %}
+        <li>{{post.title}}</li>
+      {% endfor %}
+      </ul>
+    </section>
+
+  </div>
+
 </main>

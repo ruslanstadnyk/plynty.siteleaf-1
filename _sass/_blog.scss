@@ -7,14 +7,40 @@
   height: 200px !important;
 }
 
-.blog h1 {
+.blog section.listing h1 {
   color: green;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.blog section.index h1 {
+  color: #e73074;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.blog section.index li {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 2rem;
+  color: #3ebeb0;
+}
+
+.blog section.index ul {
+  padding: 0;
+  margin: 0;
+}
+
+.blog p {
+  margin-top: 1rem;
 }
 
 .blog article {
   border-bottom: .1rem solid lightgrey;
+  margin-bottom: 2rem;
 }
 
 .blog section {
-  margin-top: 150px;
+
 }
