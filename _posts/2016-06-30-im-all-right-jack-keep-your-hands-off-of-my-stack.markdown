@@ -1,6 +1,8 @@
 ---
 title: I'm all right Jack keep your hands off of my stack
 date: 2016-06-30 00:17:00 Z
+categories:
+- news
 image: "/uploads/1ddfllcz42k-luke-porter.jpg"
 author: Anne Hammond
 ---
