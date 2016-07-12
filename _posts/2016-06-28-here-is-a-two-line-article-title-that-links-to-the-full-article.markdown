@@ -4,7 +4,7 @@ date: 2016-06-28 12:50:00 Z
 categories:
 - news
 image: "/uploads/60fa9bmxvpe-redd-angelo.jpg"
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 author: Doug Schnelzer
 ---
 
