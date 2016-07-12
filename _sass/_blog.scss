@@ -1,5 +1,7 @@
-.blog main {
-  background-color: red;
+main.blog {
+  margin-top: 100px;
+  margin-left:50px;
+  margin-right: 50px;
 }
 
 .blog .post-list {
@@ -8,10 +10,26 @@
 }
 
 .blog section.listing h1 {
-  color: green;
+  color: dimgray;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.blog section.listing article {
+  font-size: 1.5rem;
+}
+
+.blog section.index {
+  font-size: 1.5rem;
+}
+
+.blog section.listing .cat {
+  color: #e73074;
+}
+
+.blog section.listing .more {
+  color: #3ebeb0;
 }
 
 .blog section.index h1 {
@@ -23,8 +41,24 @@
 .blog section.index li {
   list-style-type: none;
   padding: 0;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: #3ebeb0;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+}
+
+.blog section.index li:last-child {
+  border-bottom: none;
+}
+
+.blog section.index li a {
+  text-decoration: none;
+  color: #3ebeb0;
+}
+
+.blog section.index .author {
+  color: gray;
+  font-style: italic;
 }
 
 .blog section.index ul {
@@ -37,8 +71,16 @@
 }
 
 .blog article {
-  border-bottom: .1rem solid lightgrey;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.blog article.standard {
+  border-bottom: .1rem solid lightgrey;
+}
+
+.blog article.standard:last-child {
+  border-bottom: none;
 }
 
 .blog section {
