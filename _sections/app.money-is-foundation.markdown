@@ -1,6 +1,6 @@
 ---
 title: app.money-is-foundation
-position: 7
+position: 8
 format: image-left
 page: app
 image: mobile2.png

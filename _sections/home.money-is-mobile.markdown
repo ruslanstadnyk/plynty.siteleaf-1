@@ -1,6 +1,6 @@
 ---
 title: home.money-is-mobile
-position: 8
+position: 6
 format: image-right
 page: home
 image: mobile-phones.png
