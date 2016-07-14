@@ -1,6 +1,6 @@
 ---
 title: background.money-has-story
-position: 15
+position: 13
 image: header2.jpg
 page: background
 format: full

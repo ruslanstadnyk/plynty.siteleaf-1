@@ -1,6 +1,6 @@
 ---
 title: background.money-has-face
-position: 14
+position: 15
 page: background
 format: photos
 ---
