@@ -1,6 +1,6 @@
 ---
 title: app.money-has-a-home
-position: 14
+position: 13
 format: image-left
 page: app
 image: mobile5.png
