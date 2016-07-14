@@ -1,6 +1,6 @@
 ---
 title: app.money-is-in-your-hands
-position: 1
+position: 6
 format: full
 page: app
 layout: default

@@ -1,5 +1,6 @@
 ---
 title: Background.photos
+position: 2
 page: background
 format: photos
 ---
