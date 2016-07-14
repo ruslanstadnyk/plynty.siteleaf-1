@@ -1,6 +1,6 @@
 ---
 title: home.money-nobodys-fool
-position: 10
+position: 9
 format: image-left
 page: home
 image: fish.png
