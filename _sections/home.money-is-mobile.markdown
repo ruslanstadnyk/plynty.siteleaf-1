@@ -1,7 +1,7 @@
 ---
 title: home.money-is-mobile
 position: 2
-format: image-left
+format: image-right
 page: home
 image: mobile-phones.png
 layout: default
