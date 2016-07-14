@@ -3,17 +3,17 @@
   <div class="row middle-xs">
 
     <!-- Title -->
-    <div class="col-md-2 col-lg-2 top-xs">
-      <span class="title"><img src="uploads/plynty_logo.png"></span>
+    <div class="col-xs-2 top-xs">
+      <span class="title"><img src="/uploads/plynty_logo.png"></span>
     </div>
 
     <!-- Navigation -->
     <nav class="col-xs-10 end-xs">
-      <a class="nav-item" href="index.html">home</a>
-      <a class="nav-item" href="app.html">app</a>
-      <a class="nav-item" href="background.html">background</a>
-      <a class="nav-item" href="blog.html">blog</a>
-      <a class="nav-item" href="contact.html">contact</a>
+      <a class="nav-item" href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}">home</a>
+      <a class="nav-item" href="{{"/app.html" | prepend: site.baseurl | prepend: site.url}}">app</a>
+      <a class="nav-item" href="{{"/background.html" | prepend: site.baseurl | prepend: site.url}}">background</a>
+      <a class="nav-item" href="{{"/blog.html" | prepend: site.baseurl | prepend: site.url}}">blog</a>
+      <a class="nav-item" href="{{"/contact.html" | prepend: site.baseurl | prepend: site.url}}">contact</a>
     </nav>
 
   </div>

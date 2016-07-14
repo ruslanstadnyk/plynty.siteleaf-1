@@ -3,6 +3,9 @@ title: get a job with more pay and you're okay
 date: 2016-06-30 00:13:00 Z
 categories:
 - news
+- stuff
+- money
+- lifestyle
 image: "/uploads/b0knukck7q0-jay-wennington.jpg"
 author: Paul Fischer
 ---

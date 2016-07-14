@@ -1,11 +1,21 @@
 <main class="blog">
 
+  <div class="row">
+    <section class="col-xs-12">
+      <div class="cat-list">
+        {% for cat in site.categories limit:6 %}
+          <a href="#">{{cat | first}}</a>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+
   {% assign posts = site.posts %}
 
   <div class="row">
 
     <section class="col-xs-8 listing">
-      {% for post in posts %}
+      {% for post in posts limit:10 %}
         {% if post.featured == true %}
           <article class="featured">
             <div class="row top-xs">
@@ -21,10 +31,16 @@
                 <img src="{{post.image}}" width="100%">
               </div>
               <div class="col-xs-8">
-                <div class="cat">{{post.categories}}</div>
-                <h1>{{post.title}}</h1>
+                <div class="cat">
+                  {% for cat in post.categories %}
+                    <span>{{cat}}</span>
+                  {% endfor %}
+                </div>
+                <h1><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h1>
                 {{post.excerpt}}
-                <div class="more" style="text-align: right; padding-right: 25px;">read more ></div>
+                <div class="more" style="text-align: right; padding-right: 25px;">
+                  <a href="{{post.url | prepend: site.baseurl}}">read more ></a>
+                </div>
               </div>
             </div>
           </article>
@@ -35,9 +51,9 @@
     <section class="col-xs-4 index">
       <h1>recently added</h1>
       <ul>
-      {% for post in posts %}
+      {% for post in posts limit:6 %}
         <li>
-          <a href="{{post.url}}">{{post.title}}</a>
+          <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
           <div class="author">{{post.author}} | {{post.date | date: "%B %d, %Y"}}</div>
         </li>
       {% endfor %}
