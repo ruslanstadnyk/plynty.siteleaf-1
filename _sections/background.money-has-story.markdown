@@ -1,5 +1,5 @@
 ---
-title: money-has-a-story
+title: background.money-has-story
 position: 15
 image: header2.jpg
 page: background
