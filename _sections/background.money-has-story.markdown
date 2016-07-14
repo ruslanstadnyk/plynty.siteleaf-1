@@ -1,6 +1,6 @@
 ---
 title: money-has-a-story
-position: 1
+position: 0
 image: header2.jpg
 page: background
 format: full

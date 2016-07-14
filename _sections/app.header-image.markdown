@@ -1,6 +1,6 @@
 ---
 title: app.header-image
-position: 9
+position: 8
 format: big-image
 page: app
 image: header-image.jpg

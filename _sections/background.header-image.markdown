@@ -1,6 +1,6 @@
 ---
 title: background-image
-position: 0
+position: 15
 image: header2.jpg
 page: background
 format: big-image

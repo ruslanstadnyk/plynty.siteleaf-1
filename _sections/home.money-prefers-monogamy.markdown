@@ -1,6 +1,6 @@
 ---
 title: home.money-prefers-monogamy
-position: 6
+position: 5
 format: image-left
 page: home
 image: peas-in-pod.png

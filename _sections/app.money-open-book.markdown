@@ -1,6 +1,6 @@
 ---
 title: app.money-is-an-open-book
-position: 13
+position: 12
 format: image-left
 page: app
 image: mobile3.png
