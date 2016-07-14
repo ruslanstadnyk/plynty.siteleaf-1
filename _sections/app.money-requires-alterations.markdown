@@ -1,6 +1,6 @@
 ---
 title: app.money-requires-alterations
-position: 9
+position: 10
 format: image-right
 page: app
 image: mobile2.png
