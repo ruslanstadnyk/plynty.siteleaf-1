@@ -1,6 +1,6 @@
 ---
 title: home.money-makes-sense
-position: 8
+position: 7
 format: image-right
 page: home
 image: blocks.png
