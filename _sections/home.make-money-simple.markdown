@@ -1,6 +1,6 @@
 ---
 title: home.make-money-simple
-position: 2
+position: 1
 format: full
 page: home
 image: mobile-phones.png

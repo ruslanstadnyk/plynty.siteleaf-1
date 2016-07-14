@@ -1,6 +1,6 @@
 ---
 title: app.money-works-on-your-schedule
-position: 12
+position: 11
 format: image-right
 page: app
 image: mobile4.png

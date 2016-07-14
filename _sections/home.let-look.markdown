@@ -1,6 +1,6 @@
 ---
 title: home.lets-looks
-position: 1
+position: 0
 format: image-right
 page: home
 image: viewfinder.png
