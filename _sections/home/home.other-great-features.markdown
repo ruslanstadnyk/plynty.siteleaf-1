@@ -5,6 +5,7 @@ format: three-block
 page: home
 layout: default
 ---
+
 # other great stuff
 
 
