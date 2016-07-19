@@ -2,18 +2,23 @@ article.post {
   margin: 100px;
 }
 
-.post-header {
-  font-size: 2rem;
+.post {
+
+  .post-header {
+    font-size: 2rem;
+  }
+
+  .post-title {
+
+  }
+
+  .post-meta {
+    font-size: 1.5rem;
+  }
+
+  .post-content {
+    font-size: 1.5rem;
+  }
+
 }
 
-.post-title {
-
-}
-
-.post-meta {
-  font-size: 1.5rem;
-}
-
-.post-content {
-  font-size: 1.5rem;
-}

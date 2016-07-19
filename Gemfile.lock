@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.3.2)
     activesupport (4.2.6)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
@@ -78,6 +79,8 @@ GEM
     jekyll-seo-tag (2.0.0)
       jekyll (~> 3.1)
     jekyll-sitemap (0.10.0)
+    jekyll-textile-converter (0.1.0)
+      RedCloth (~> 4.0)
     jekyll-watch (1.4.0)
       listen (~> 3.0, < 3.1)
     jemoji (0.6.2)
@@ -124,6 +127,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-textile-converter
 
 BUNDLED WITH
    1.12.5

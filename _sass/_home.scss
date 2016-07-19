@@ -1,44 +1,43 @@
-
 /* home page styles */
-.home section {
-  border-bottom: .1rem solid lightgrey;
-}
+.home {
 
-.home section h1 {
-  color: #e73074;
-}
+  background-color: white;
 
-.home section:nth-child(2) h1 {
-  color: #6fa5b5;
-}
+  section {
+    border-bottom: .1rem solid lightgrey;
+  }
 
-.home section:nth-child(3) {
-  background-color: #ececec;
-}
+  section h1 {
+    color: #6fa5b5;
+  }
 
-.home section:first-child {
-  padding-top: 75px;
-}
+  section:nth-child(3) {
+    background-color: #ececec;
+  }
 
-.home section:first-child h1 {
-  color: #000000;
-}
+  section:first-child {
+    padding-top: 75px;
+  }
 
-.home section:nth-child(1) {
-  background-color: #3ebeb0;
-}
+  section:first-child h1 {
+    color: #000000;
+  }
 
-.home section:nth-child(1) h1 {
-  font-size: 4.9rem;
-}
+  section:nth-child(1) {
 
-.home section:nth-child(2) {
-  background-color: #CED83E;
-}
+  }
 
-.home section .row {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  section:nth-child(2) {
+    background-color: #f9f9f7;
+  }
+
+  section:nth-child(1) h1 {
+    font-size: 4.9rem;
+  }
+
+  section .row {
+    padding: 4rem 0;
+    margin: 0 4rem;
+  }
+
 }
