@@ -55,6 +55,7 @@
 
 
 html {
+    font-family: 'Muli';
     font-size: 62.5%;
 }
 
@@ -103,6 +104,12 @@ footer {
     margin: auto;
 }
 
+footer address {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
 footer h1 {
     font-size: 3.6rem;
     color: #ffffff;
@@ -111,6 +118,15 @@ footer h1 {
 footer p {
     color: #ffffff;
     font-size: 1.8rem;
+}
+
+footer .trademarks p {
+    font-size: 1.2rem;
+}
+
+footer div.links a {
+    color: #ffffff;
+    font-size: 1.5rem;
 }
 
 footer form {
@@ -122,20 +138,26 @@ footer .row {
     padding-right: 4rem;
 }
 
-footer .row:nth-child(1) {
+footer .row {
     background-color: #3ebeb0;
     padding-bottom: 4.2rem;
-}
-
-footer .row:nth-child(2) {
-    background-color: #2f7268;
-    padding: 1.2rem;
 }
 
 footer .row:nth-child(2) a {
     font-size: 1.4rem;
     color: #ffffff;
     text-decoration: none;
+}
+
+footer div.social i {
+    color: #ffffff;
+    padding-right: 2rem;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
 }
 
 .md-accent {

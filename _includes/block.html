@@ -1,9 +1,15 @@
-<div>
-  <h2>{{include.block1.heading}}</h2>
-  <p>{{include.block1.text}}</p>
+<div style="padding-left: 4rem;">
+  {{heading | markdownify}}
 </div>
 
-<div>
-  <h2>{{include.block2.heading}}</h2>
-  <p>{{include.block2.text}}</p>
+<div class="row top-xs" style="margin-top:0;padding-top:0">
+  <div class="col-xs-4 center-xs">
+    {{block1 | markdownify}}
+  </div>
+  <div class="col-xs-4 center-xs">
+    {{block2 | markdownify}}
+  </div>
+  <div class="col-xs-4 center-xs">
+    {{block3 | markdownify}}
+  </div>
 </div>

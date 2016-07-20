@@ -3,41 +3,59 @@
 
   background-color: white;
 
-  section {
-    border-bottom: .1rem solid lightgrey;
-  }
-
   section h1 {
-    color: #6fa5b5;
+    font-weight: normal;
+    letter-spacing: .1em;
+    color: #00c5b2;
+    margin: auto;
+    text-align: center;
   }
 
-  section:nth-child(3) {
-    background-color: #ececec;
+  section h2 {
+    font-weight: normal;
+    color: #00c5b2;
+    font-size: 1.6rem;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   section:first-child {
-    padding-top: 75px;
+    padding-top: 90px;
   }
 
+  section:nth-child(1) img {
+    display: block;
+  }
   section:first-child h1 {
     color: #000000;
   }
 
-  section:nth-child(1) {
-
-  }
-
-  section:nth-child(2) {
+  section:nth-child(even) {
     background-color: #f9f9f7;
   }
 
-  section:nth-child(1) h1 {
-    font-size: 4.9rem;
+  section:nth-child(odd) {
+    background-color: #ffffff;
   }
 
   section .row {
     padding: 4rem 0;
     margin: 0 4rem;
+  }
+
+  .icon-bullet h1 {
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    padding-bottom: 0;
+  }
+
+  .icon-bullet p {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+
+  i {
+    color: #00c5b2;
   }
 
 }

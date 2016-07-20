@@ -1,30 +1,42 @@
-<footer ng-app="app">
-  <div class="row center-xs" ng-controller="FormController">
-    <div class="col-xs-12">
-      <h1>join the beta</h1>
-      <p>we're launching the first phase of our app soon. be the first to try it and
-        tell us what you think.</p>
-      <form>
-        <div>
-          <md-input-container>
-            <label>name</label>
-            <input type="text" ng-model="name">
-          </md-input-container>
-        </div>
-        <div>
-          <md-input-container>
-            <label>email</label>
-            <input type="email" ng-model="email">
-          </md-input-container>
-        </div>
-      </form>
-      <button class="md-button md-raised">sign up</button>
+<footer>
+  <div class="row start-xs">
+    <div class="col-xs-6"  style="margin-top: 25px;">
+      <img src="/uploads/plynty_logo.png" style="margin-bottom: 25px">
+      <address>
+        copyright &copy; plynty, LLC 2016<br/>
+        13880 Dulles Corner Lane<br/>
+        Herndon, VA 20171<br/>
+        support@plynty.com<br/>
+      </address>
+      <div class="links">
+        <a href="#">disclaimer</a>
+        <a href="#">privacy policy</a>
+        <a href="#">terms of use</a>
+      </div>
     </div>
+    <nav class="col-xs-6 end-xs" style="margin-top: 25px;">
+      <div>
+        <a href="#">about us</a>
+        <a href="#">blog</a>
+        <a href="#">get the app</a>
+      </div>
+    </nav>
   </div>
 
-  <div class="row center-xs middle-xs">
-    <div class="col-xs-12">
-      <a href="{{"/privacy.html" | prepend: site.baseurl | prepend: site.url}}">privacy policy</a>
+  <div class="row">
+    <div class="col-xs-6 start-xs">
+      <div class="trademarks">
+        <p>Apple, the Apple logo and iPhone are trademarks of Apple Inc, registerd in the U.S. and other countries.
+          App Store is a service mark of Apple Inc.  Andriod is a trademark of Google Inc.</p>
+      </div>
+    </div>
+    <div class="col-xs-6 end-xs">
+      <div class="social">
+        <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
+        <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+      </div>
     </div>
   </div>
 </footer>

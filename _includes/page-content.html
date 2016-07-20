@@ -1,4 +1,4 @@
-<main class="{{include.page}}">
+<main class="{{include.page}}" style="max-width:1200px;margin: auto;">
 
   <!-- get each section for the page and sort by position -->
   {% assign sections = site.sections | where: 'page', {{include.page}} | sort: 'position' %}
@@ -49,7 +49,7 @@
         {% endif %}
 
         {% if section.format == 'three-block' %}
-          {{section.content}}
+            {{section.content}}
         {% endif %}
 
       </section>
