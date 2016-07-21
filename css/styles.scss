@@ -1,8 +1,17 @@
 ---
 ---
 
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+$font-muli: 'Muli', sans-serif;
+
+$plynty-green: #00c5b2 !default;
+$plynty-pink:  #e73074 !default;
+$plynty-blue:  #00008b !default;
+$plynty-gray:  #9E9E9E !default;
+$plynty-white: #ffffff !default;
+
 @import "home";
-@import "app";
 @import "background";
 @import "blog";
 @import "post";
@@ -55,7 +64,7 @@
 
 
 html {
-    font-family: 'Muli';
+    font-family: $font-muli;
     font-size: 62.5%;
 }
 
@@ -69,7 +78,7 @@ body {
 }
 
 header {
-    background-color: #9E9E9E;
+    background-color: $plynty-gray;
     position: fixed;
     top: 0;
     width: 100%;
@@ -83,17 +92,17 @@ header .row {
 }
 
 nav {
-    padding-right: 3rem !important;
+  padding-right: 3rem !important;
 }
 
 .nav-item {
-    color: #ffffff;
+    color: $plynty-white;
     text-decoration: none;
 }
 
 nav a {
     padding: 1.4rem;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
 }
 
 nav a:hover {
@@ -105,18 +114,18 @@ footer {
 }
 
 footer address {
-    color: #ffffff;
+    color: $plynty-white;
     font-style: normal;
     font-size: 1.5rem;
 }
 
 footer h1 {
     font-size: 3.6rem;
-    color: #ffffff;
+    color: $plynty-white;
 }
 
 footer p {
-    color: #ffffff;
+    color: $plynty-white;
     font-size: 1.8rem;
 }
 
@@ -125,7 +134,7 @@ footer .trademarks p {
 }
 
 footer div.links a {
-    color: #ffffff;
+    color: $plynty-white;
     font-size: 1.5rem;
 }
 
@@ -139,43 +148,43 @@ footer .row {
 }
 
 footer .row {
-    background-color: #3ebeb0;
+    background-color: $plynty-green;
     padding-bottom: 4.2rem;
 }
 
 footer .row:nth-child(2) a {
     font-size: 1.4rem;
-    color: #ffffff;
+    color: $plynty-white;
     text-decoration: none;
 }
 
 footer div.social i {
-    color: #ffffff;
+    color: $plynty-white;
     padding-right: 2rem;
 }
 
 footer nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: $plynty-white;
     font-size: 1.8rem;
 }
 
 .md-accent {
-    background-color: #e73074;
-    color: #ffffff;
+    background-color: $plynty-pink;
+    color: $plynty-white;
     text-transform: lowercase;
 }
 
 .md-outline {
-    background-color: #ffffff;
-    border: .1rem solid #e73074;
+    background-color: $plynty-white;
+    border: .1rem solid $plynty-pink;
     text-transform: lowercase;
-    color: #e73074 !important;
+    color: $plynty-pink;
 }
 
 .md-outline-blue {
-    background-color: #ffffff;
-    border: .1rem solid darkblue;
+    background-color: $plynty-white;
+    border: .1rem solid $plynty-blue;
     text-transform: lowercase;
-    color: darkblue !important;
+    color: $plynty-blue !important;
 }
