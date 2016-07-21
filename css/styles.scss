@@ -62,7 +62,6 @@ $plynty-white: #ffffff !default;
 
 }
 
-
 html {
     font-family: $font-muli;
     font-size: 62.5%;
@@ -74,6 +73,7 @@ body {
 
 .wrapper {
     width: 100%;
+    max-width: 125rem;
     margin: auto;
 }
 
