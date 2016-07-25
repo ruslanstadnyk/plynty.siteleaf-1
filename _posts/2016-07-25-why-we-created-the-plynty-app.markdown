@@ -1,6 +1,7 @@
 ---
 title: Why we Created the plynty app
 date: 2016-07-25 16:32:00 Z
+author: plynty
 ---
 
 Dennis had a big idea: bringing lifelong financial planning to those who don’t have access to good 
