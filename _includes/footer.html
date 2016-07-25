@@ -1,5 +1,6 @@
 <footer>
-  <div class="row start-xs">
+
+  <div class="row start-xs" style="padding-bottom: 0">
     <div class="col-xs-12 col-md-6" style="margin-top: 25px;">
       <img src="/uploads/plynty-logo.png" style="margin-bottom: 25px">
       <address>
@@ -9,11 +10,13 @@
         support@plynty.com<br/>
       </address>
       <div class="links">
-        <a href="{{ "/privacy.html" | prepend: site.baseurl | prepend: site.url}}">privacy policy</a>
-        <a href="{{ "/terms.html" | prepend: site.baseurl | prepend: site.url}}">terms</a>
+        <ul>
+          <li><a href="{{ "/privacy.html" | prepend: site.baseurl | prepend: site.url}}">privacy policy</a></li>
+          <li><a href="{{ "/terms.html" | prepend: site.baseurl | prepend: site.url}}">terms</a></li>
+        </ul>
       </div>
     </div>
-    <nav class="col-xs-6 col-md-6 start-xs end-md" style="margin-top: 25px;">
+    <nav class="col-xs-12 col-md-6 start-xs end-md" style="margin-top: 25px;">
       <div>
         <a href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}">home</a>
         <a href="#">about us</a>
@@ -23,14 +26,14 @@
     </nav>
   </div>
 
-  <div class="row">
-    <div class="col-xs-6 start-xs">
+  <div class="row" style="margin-top: 0; padding-top: 0">
+    <div class="col-xs-12 col-md-6 start-xs">
       <div class="trademarks">
         <p>Apple, the Apple logo and iPhone are trademarks of Apple Inc, registerd in the U.S. and other countries.
           App Store is a service mark of Apple Inc.  Andriod is a trademark of Google Inc.</p>
       </div>
     </div>
-    <div class="col-xs-6 end-xs">
+    <div class="col-xs-12 col-md-6 start-xs end-md">
       <div class="social">
         <a href="https://twitter.com/plynty" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
         <a href="https://www.facebook.com/plynty" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
