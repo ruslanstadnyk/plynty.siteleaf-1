@@ -1,5 +1,5 @@
 ---
-title: Money Fits All
+title: money fits all
 date: 2016-07-25 16:24:00 Z
 tags:
 - welcome
