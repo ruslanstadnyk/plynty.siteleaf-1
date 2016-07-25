@@ -1,5 +1,5 @@
 ---
-title: Why we Created the plynty app
+title: why we created the plynty app
 date: 2016-07-25 16:32:00 Z
 author: plynty
 ---
