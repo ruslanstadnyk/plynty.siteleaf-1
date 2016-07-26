@@ -5,8 +5,7 @@ image: "/uploads/Plynty_possy_line.jpg"
 author: plynty
 ---
 
-Dennis had a big idea: bringing lifelong financial planning to those who don’t have access to good 
-advice. He spent many years as a  business strategy and marketing executive for several large 
+Dennis had a big idea: bringing lifelong financial planning to those who don’t have access to good advice. He spent many years as a  business strategy and marketing executive for several large 
 banks, and for far too long he witnessed how regular people were underserved by the financial 
 industry. He wanted  to develop a solution that would change the way people received advice. He brought in Dirk, a top expert in financial planning who shared the same sentiment, and Joe, a technologist whose passion in using cutting-edge technology has transformed many businesses. 
 
