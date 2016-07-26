@@ -30,6 +30,7 @@ defaults:
 - scope:
     path: ''
     type: sections
+  values:
     format: ''
     page: ''
     image: ''
