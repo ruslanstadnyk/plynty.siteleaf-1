@@ -42,5 +42,6 @@ defaults:
     layout: page
 email: pfischer@vizuri.com
 markdown: kramdown
+excerpt_separator: <!--more-->
 gems:
 - jekyll-textile-converter
