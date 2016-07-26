@@ -16,4 +16,4 @@ It doesn't matter if you’re just starting out or already retired; if you saved
 
 No appointment necessary.
 
-[Learn how plynty works](#helping-make-sense)
+[Learn how plynty works >](#helping-make-sense)
