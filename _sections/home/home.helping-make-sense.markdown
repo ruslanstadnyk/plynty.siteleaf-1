@@ -7,7 +7,7 @@ image: helping-make-sense.jpg
 layout: default
 ---
 
-# helping it make sense
+# <a name="helping-make-sense"></a>helping it make sense
 You probably manage your money on a monthly basic -- how much you earn and spend on housing, food, and fun.  
 
 Since that's the way you plan for today, that's the way the plynty app helps you plan for retirement.  

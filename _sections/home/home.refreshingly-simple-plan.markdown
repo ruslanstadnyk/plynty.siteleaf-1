@@ -15,3 +15,5 @@ That's where the plynty app can help.
 It doesn't matter if you’re just starting out or already retired; if you saved one hundred or one million dollars.  A plynty plan can guide you through the transition and give you confidence. 
 
 No appointment necessary.
+
+[Learn how plynty works](#helping-make-sense)
