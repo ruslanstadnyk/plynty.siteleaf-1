@@ -2,7 +2,10 @@
 
   <div class="row start-xs" style="padding-bottom: 0">
     <div class="col-xs-12 col-md-6" style="margin-top: 25px;">
-      <img src="/uploads/plynty-logo.png" style="margin-bottom: 25px">
+      <!--<img src="/uploads/plynty-logo.png" style="margin-bottom: 25px">-->
+      <a href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}" style="margin-bottom: 25px">
+        <img src="/uploads/plynty-logo.png">
+      </a>
       <address>
         copyright &copy; plynty, LLC 2016<br/>
         13880 Dulles Corner Lane<br/>
@@ -12,7 +15,7 @@
       <div class="links">
         <ul>
           <li><a href="{{ "/privacy.html" | prepend: site.baseurl | prepend: site.url}}">privacy policy</a></li>
-          <li><a href="{{ "/terms.html" | prepend: site.baseurl | prepend: site.url}}">terms</a></li>
+          <li><a href="{{ "/terms.html" | prepend: site.baseurl | prepend: site.url}}">terms of use</a></li>
         </ul>
       </div>
     </div>

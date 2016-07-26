@@ -6,7 +6,8 @@ page: home
 layout: default
 ---
 
-# your plan is mobile
+# <a name="plan-is-mobile"></a>your plan is mobile
+
 We've taken retirement planning where it belongs -- on your phone, in a convenient app.
 
 {% include app-stores.html %}

@@ -83,9 +83,10 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: .9;
+    opacity: .65;
     box-sizing: border-box;
     z-index: 1;
+    max-height: 9rem;
 }
 
 header .row {
@@ -97,8 +98,9 @@ nav {
 }
 
 .nav-item {
-    color: $plynty-white;
-    text-decoration: none;
+  color: $plynty-white;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 nav a {
