@@ -32,7 +32,7 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: ":title"
+    permalink: ":title.html"
     image: ''
     author: ''
 - scope:
