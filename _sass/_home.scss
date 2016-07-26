@@ -25,6 +25,11 @@
     letter-spacing: .075rem;
   }
 
+  section a {
+    text-decoration: none;
+    color: $plynty-green;
+  }
+
   section:first-child {
     padding-top: 8.9rem;
   }

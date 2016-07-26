@@ -2,6 +2,7 @@
 title: why we created the plynty app
 date: 2016-07-25 16:32:00 Z
 author: plynty
+image: "/uploads/kaje-3_4zhe-scott-webb.jpg"
 ---
 
 Dennis had a big idea: bringing lifelong financial planning to those who don’t have access to good 
