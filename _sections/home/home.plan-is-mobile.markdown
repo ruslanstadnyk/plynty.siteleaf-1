@@ -1,6 +1,6 @@
 ---
 title: home.plan-is-mobile
-position: 5
+position: 6
 format: full
 page: home
 layout: default

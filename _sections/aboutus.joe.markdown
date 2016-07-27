@@ -1,6 +1,6 @@
 ---
 title: aboutus.joe
-position: 6
+position: 3
 page: aboutus
 image: portrait-joe.png
 format: image-right
