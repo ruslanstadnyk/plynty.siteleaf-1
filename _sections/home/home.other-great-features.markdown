@@ -1,6 +1,6 @@
 ---
 title: home.other-great-features
-position: 8
+position: 9
 format: three-block
 page: home
 layout: default

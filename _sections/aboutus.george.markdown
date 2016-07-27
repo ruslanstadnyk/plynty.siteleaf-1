@@ -1,6 +1,6 @@
 ---
 title: aboutus.george
-position: 9
+position: 4
 page: aboutus
 image: portrait-george.png
 format: image-left
