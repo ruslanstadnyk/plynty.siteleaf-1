@@ -1,10 +1,11 @@
 ---
 title: dennis
-page: aboutus
 position: 1
+page: aboutus
 image: portrait-dennis.png
 format: image-left
 ---
+
 # dennis hooks, president
 **about dennis:** dennis if the president of plynty. he brings three decades
 of experience in finance and technology where he learned that the internet
