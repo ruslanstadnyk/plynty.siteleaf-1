@@ -1,5 +1,5 @@
 ---
-title: dirk
+title: aboutus.dirk
 position: 2
 page: aboutus
 image: portrait-dirk.png

@@ -1,5 +1,5 @@
 ---
-title: dennis
+title: aboutus.dennis
 position: 1
 page: aboutus
 image: portrait-dennis.png

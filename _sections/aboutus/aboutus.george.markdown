@@ -1,5 +1,5 @@
 ---
-title: george
+title: aboutus.george
 position: 5
 page: aboutus
 image: portrait-george.png
