@@ -17,7 +17,7 @@
   <div class="row">
 
     <section class="col-xs-12 listing">
-      {% for post in posts limit:10 %}
+      {% for post in posts limit:25 %}
         {% if post.featured == true %}
           <!--<article class="featured">
             <div class="row top-xs">
@@ -33,14 +33,14 @@
                 <img src="{{post.image}}" width="100%">
               </div>
               <div class="col-xs-8">
-                <div class="cat">
+                <!--<div class="cat">
                   {% for cat in post.categories %}
                     <span>{{cat}}</span>
                   {% endfor %}
-                </div>
+                </div>-->
                 <h1><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h1>
                 {{post.excerpt}}
-                <div class="more" style="text-align: right; padding-right: 25px;">
+                <div class="more">
                   <a href="{{post.url | prepend: site.baseurl}}">read more ></a>
                 </div>
               </div>

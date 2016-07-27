@@ -1,7 +1,6 @@
 main.blog {
-  margin-top: 100px;
-  margin-left:50px;
-  margin-right: 50px;
+  margin-left:7rem;
+  margin-right: 7rem;
 }
 
 .blog {
@@ -22,28 +21,12 @@ main.blog {
     height: 200px !important;
   }
 
-  section.listing h1 {
-    color: dimgray;
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  section.listing article {
-    font-size: 1.5rem;
-  }
-
   section.index {
     font-size: 1.5rem;
   }
 
   section.listing .cat {
     color: #e73074;
-  }
-
-  section.listing .more a {
-    color: #3ebeb0;
-    text-decoration: none;
   }
 
   section.index h1 {
@@ -56,7 +39,7 @@ main.blog {
     list-style-type: none;
     padding: 0;
     margin-top: 1rem;
-    color: #3ebeb0;
+    color: $plynty-green;
     border-bottom: 1px solid lightgray;
     padding-bottom: 1rem;
   }
@@ -67,12 +50,7 @@ main.blog {
 
   section.index li a {
     text-decoration: none;
-    color: #3ebeb0;
-  }
-
-  article h1 a {
-    text-decoration: none;
-    color: dimgray;
+    color: $plynty-green;
   }
 
   section.index .author {
@@ -85,13 +63,29 @@ main.blog {
     margin: 0;
   }
 
-  p {
-    margin-top: 1rem;
+  article .row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
   }
 
-  article {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+  article p {
+    font-size: 1.5rem;
+  }
+
+  article h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  article h1 a {
+    text-decoration: none;
+    color: dimgray;
+  }
+
+  article p {
+    font-size: 1.5rem;
   }
 
   article.standard {
@@ -100,6 +94,16 @@ main.blog {
 
   article.standard:last-child {
     border-bottom: none;
+  }
+
+  article div.more {
+    text-align: right;
+    padding-right: 0rem;
+    font-size: 1.5rem;
+  }
+
+  article div.row {
+    padding-bottom: 1rem;
   }
 
 }
