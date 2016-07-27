@@ -3,4 +3,17 @@
 
   background-color: $plynty-white;
 
+  section:first-child {
+    background-color: #fcfbf6;
+    border-bottom: 1px solid gainsboro;
+  }
+
+  section:first-child h1 {
+    color: #000000
+  }
+
+  h2 {
+    color: #000000;
+  }
+
 }

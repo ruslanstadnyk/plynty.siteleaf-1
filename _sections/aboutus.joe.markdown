@@ -1,9 +1,9 @@
 ---
 title: aboutus.joe
-position: 3
+position: 4
 page: aboutus
 image: portrait-joe.png
-format: image-right
+format: portrait-right
 ---
 
 # joe dickman, board of advisors

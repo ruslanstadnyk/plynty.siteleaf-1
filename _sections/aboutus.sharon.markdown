@@ -1,9 +1,9 @@
 ---
 title: aboutus.sharon
-position: 2
+position: 5
 page: aboutus
 image: portrait-sharon.png
-format: image-left
+format: portrait-left
 ---
 
 # sharon deMonsabert, chairman

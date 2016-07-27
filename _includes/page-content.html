@@ -12,6 +12,17 @@
           <img src="uploads/{{section.image}}" width="100%">
         {% endif %}
 
+        {% if section.format == 'image-left' %}
+        <div class="row top-xs">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs">
+            <img src="uploads/{{section.image}}" style="max-width: 100%">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm start-md start-lg">
+            {{section.content}}
+          </div>
+        </div>
+        {% endif %}
+
         {% if section.format == 'image-right' %}
           <div class="row top-xs center-xs">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm start-md start-lg">
@@ -23,6 +34,28 @@
           </div>
         {% endif %}
 
+        {% if section.format == 'portrait-left' %}
+        <div class="row top-xs">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md">
+            <img src="uploads/{{section.image}}">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md">
+            {{section.content}}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if section.format == 'portrait-right' %}
+        <div class="row top-xs">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md">
+            <p>{{section.content}}</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs end-md">
+            <img src="uploads/{{section.image}}">
+          </div>
+        </div>
+        {% endif %}
+
         {% if section.format == 'full' %}
           <div class="row middle-xs center-xs">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -31,12 +64,9 @@
           </div>
         {% endif %}
 
-        {% if section.format == 'image-left' %}
-          <div class="row top-xs">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs">
-              <img src="uploads/{{section.image}}" style="max-width: 100%">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm start-md start-lg">
+        {% if section.format == 'full-left' %}
+          <div class="row middle-xs start-xs">
+            <div class="col-xs-12">
               {{section.content}}
             </div>
           </div>

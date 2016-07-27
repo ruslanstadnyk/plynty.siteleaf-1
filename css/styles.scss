@@ -74,7 +74,7 @@ body {
 
 .wrapper {
     width: 100%;
-    max-width: 125rem;
+    max-width: 110rem;
     margin: auto;
 }
 
@@ -86,7 +86,6 @@ header {
     opacity: .65;
     box-sizing: border-box;
     z-index: 1;
-    max-height: 9rem;
 }
 
 header .row {
@@ -182,6 +181,12 @@ footer nav a {
     font-size: 1.8rem;
 }
 
+.md-button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 0;
+}
+
 .md-accent {
     background-color: $plynty-pink;
     color: $plynty-white;
@@ -231,10 +236,6 @@ section a {
 
 section:first-child {
   padding-top: 8.9rem;
-}
-
-section:first-child img {
-  display: block;
 }
 
 section:nth-child(even) {
