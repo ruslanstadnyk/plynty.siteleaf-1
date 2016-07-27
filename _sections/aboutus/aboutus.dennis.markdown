@@ -1,6 +1,6 @@
 ---
 title: aboutus.dennis
-position: 1
+position: 0
 page: aboutus
 image: portrait-dennis.png
 format: image-left

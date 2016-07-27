@@ -1,6 +1,6 @@
 ---
 title: aboutus.sharon
-position: 3
+position: 4
 page: aboutus
 image: portrait-sharon.png
 format: image-left

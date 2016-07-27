@@ -1,6 +1,6 @@
 ---
 title: home.money-can-time-travel
-position: 6
+position: 10
 format: big-image
 page: home
 image: money-can-time-travel.png

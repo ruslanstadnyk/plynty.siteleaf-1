@@ -1,6 +1,6 @@
 ---
 title: home.retirement-within-reach
-position: 7
+position: 12
 format: full
 page: home
 layout: default

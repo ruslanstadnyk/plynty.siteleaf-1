@@ -1,6 +1,6 @@
 ---
 title: home.data-secure-private
-position: 6
+position: 11
 format: image-left
 page: home
 image: data-secure-private.jpg

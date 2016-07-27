@@ -1,6 +1,6 @@
 ---
 title: aboutus.dirk
-position: 2
+position: 1
 page: aboutus
 image: portrait-dirk.png
 format: image-right
