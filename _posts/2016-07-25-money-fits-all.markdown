@@ -10,7 +10,7 @@ image: "/uploads/hc42xxu_wog-veeterzy.jpg"
 “There seems to be some perverse human characteristic that likes to make easy things difficult.”
 - Warren Buffett
 
-Welcome to the plynty blog. Here, we expose the truths behind financial planning and make it what it should be—effortless.<!--more—> Because understanding a few simple tips can make your life a lot less stressful.
+Welcome to the plynty blog. Here, we expose the truths behind financial planning and make it what it should be—effortless.<!--more--> Because understanding a few simple tips can make your life a lot less stressful.
 
 In our upcoming posts, we’ll share the secret to an attainable retirement plan and the biggest risk you’ll face trying to reach it (hint: it isn’t market volatility). And we’ll get better acquainted by sharing more about our team, what motivates us, and how the plynty app is designed so that anyone can create a financial plan that will work for them.
 

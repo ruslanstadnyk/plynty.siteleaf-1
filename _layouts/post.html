@@ -10,7 +10,13 @@ layout: default
   </div>
 
   <div class="post-content" itemprop="articleBody">
+    <img src="{{ page.image }}" width="300" style="float: left; padding-right: 1.4rem;">
     {{ content }}
+    <br class="clear">
   </div>
+
+  <hr/>
+
+  <a href="{{"/blog.html" | prepend: site.baseurl | prepend: site.url}}">back</a>
 
 </article>
