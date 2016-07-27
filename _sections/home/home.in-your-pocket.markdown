@@ -1,6 +1,6 @@
 ---
 title: home.in-your-pocket
-position: 2
+position: 3
 format: big-image
 page: home
 image: in-your-pocket.jpg

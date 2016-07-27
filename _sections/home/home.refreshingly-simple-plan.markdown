@@ -1,6 +1,6 @@
 ---
 title: home.refreshingly-simple-plan
-position: 3
+position: 4
 format: image-left
 page: home
 image: refreshingly-simple-plan.jpg
