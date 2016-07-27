@@ -10,5 +10,5 @@ layout: default
 
 ## so do we
 
-{%include button.html style="primary" label="  get the app  " %}
+{%include button.html style="primary" label="get the app" target="index.html#plan-is-mobile" %}
 
