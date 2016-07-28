@@ -3,7 +3,7 @@ title: home.refreshingly-simple-plan
 position: 6
 format: image-left
 page: home
-image: refreshingly-simple-plan.jpg
+image: "/uploads/aRefreshinglySimplePlanFinal.png"
 layout: default
 ---
 
