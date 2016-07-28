@@ -3,7 +3,7 @@ title: home.helping-make-sense
 position: 8
 format: image-right
 page: home
-image: helping-make-sense.jpg
+image: "/uploads/helpingitmakesenseFinal.png"
 layout: default
 ---
 
