@@ -13,23 +13,19 @@ layout: default
 {% capture block1 %}
 {% include icon.html icon="fa fa-plug" %}
 ## connect accounts 
-Link your bank, mortgage, and investment accounts for a total and up-to-date view of your lifelong cashflow.
+Link your investment accounts for a total and up-to-date view of your lifelong cashflow.
 {% endcapture %}
 
 {% capture block2 %}
 {% include icon.html icon="fa fa-shopping-cart" %}
 ## shop smart and safe
-Get insurance and annuities quotes from partners who share our values. who put you first. peace of mind. commissions charity
+Receive personalized quotes from <a href="https://www.raffafinancial.com/" target="_blank">Raffa, Inc.</a>, a like-minded partner, who searches top insurers for the best guarantees and price.
 {% endcapture %}
 
 {% capture block3 %}
 {% include icon.html icon="fa fa-list" %}
 ## see your path
-Two roads diverged in a yellow wood,
-And sorry I could not travel both
-And be one traveler, long I stood
-And looked down one as far as I could
-To where it bent in the undergrowth
+Track the progress toward achieving your retirement goal.
 {% endcapture %}
 
 {% include block.html %}
