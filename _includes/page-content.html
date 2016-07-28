@@ -36,7 +36,7 @@
 
         {% if section.format == 'portrait-left' %}
         <div class="row top-xs">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md middle-xs">
             <img src="{{section.image}}">
           </div>
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md">
@@ -46,11 +46,11 @@
         {% endif %}
 
         {% if section.format == 'portrait-right' %}
-        <div class="row top-xs">
+        <div class="row top-xs" middle-xs>
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md">
             <p>{{section.content}}</p>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs end-md">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs end-md middle-xs">
             <img src="{{section.image}}">
           </div>
         </div>

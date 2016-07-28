@@ -342,7 +342,7 @@
 
       tagLineSteps['step' + animatedData[i].step].attr('dy', (i * 1.9 + 'em'))
         .attr('dx', '1em')
-        .attr('font-size', '1.25em')
+        .attr('font-size', '1.5em')
         .style('fill', darkGrayTextColor)
         .style('opacity', 0)
         .text(function () {
@@ -359,14 +359,14 @@
     tagLineSteps['step' + donutIndex].transition()
       .duration(DURATION)
       .style('opacity', 1)
-      .style('fill', incomeColor)
-      .attr('font-size', '1.25em');
+      .style('fill', incomeColor);
+      // .attr('font-size', '1.25em');
 
     tagLineSteps['step' + donutIndex].transition()
       .delay(INTERVAL_DURATION)
       .duration(DURATION)
-      .style('fill', darkGrayTextColor)
-      .attr('font-size', '1.25em');
+      .style('fill', darkGrayTextColor);
+      // .attr('font-size', '1.25em');
   }
 
   // ***************************************************************
@@ -452,8 +452,10 @@
         .attr('x', 10)
         .attr('y', 0)
         .attr('width', 650)
-        .attr('height', 300)
-        .append('xhtml:body').append('xhtml:div')
+        .attr('height', 'auto')
+        .append('xhtml:body')
+        // .style('background-color', 'transparent')
+        .append('xhtml:div')
         .style('color', darkGrayTextColor)
         .html(function () {
           return animatedData[i].explanation;
