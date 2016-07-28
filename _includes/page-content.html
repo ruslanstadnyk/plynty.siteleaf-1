@@ -9,7 +9,7 @@
       <section>
 
         {% if section.format == 'big-image' %}
-          <img src="uploads/{{section.image}}" width="100%">
+          <img src="{{section.image}}" width="100%">
         {% endif %}
 
         {% if section.format == 'image-left' %}
@@ -51,7 +51,7 @@
             <p>{{section.content}}</p>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs end-md">
-            <img src="uploads/{{section.image}}">
+            <img src="{{section.image}}">
           </div>
         </div>
         {% endif %}

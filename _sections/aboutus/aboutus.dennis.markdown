@@ -3,7 +3,7 @@ title: aboutus.dennis
 position: 1
 format: portrait-left
 page: aboutus
-image: portrait-dennis.png
+image: "/uploads/portrait-dennis.png"
 ---
 
 # dennis hooks, president

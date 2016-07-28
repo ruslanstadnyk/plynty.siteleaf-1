@@ -3,7 +3,7 @@ title: aboutus.dirk
 position: 2
 format: portrait-right
 page: aboutus
-image: portrait-dirk.png
+image: "/uploads/portrait-dirk.png"
 ---
 
 # dirk roper, chief financial planner

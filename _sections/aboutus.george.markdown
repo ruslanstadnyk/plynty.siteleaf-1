@@ -3,7 +3,7 @@ title: aboutus.george
 position: 3
 format: portrait-left
 page: aboutus
-image: portrait-george.png
+image: "/uploads/portrait-george.png"
 ---
 
 # george peacock, investment principal
