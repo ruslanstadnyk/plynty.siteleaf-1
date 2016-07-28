@@ -3,7 +3,7 @@ title: home.data-secure-private
 position: 11
 format: image-left
 page: home
-image: "/uploads/data-secure-private.jpg"
+image: "/uploads/datasecureandprivateFinal.png"
 layout: default
 ---
 
