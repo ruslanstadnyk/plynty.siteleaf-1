@@ -342,7 +342,7 @@
 
       tagLineSteps['step' + animatedData[i].step].attr('dy', (i * 1.9 + 'em'))
         .attr('dx', '1em')
-        .attr('font-size', '1.5em')
+        .attr('font-size', '1.65em')
         .style('fill', darkGrayTextColor)
         .style('opacity', 0)
         .text(function () {
@@ -360,13 +360,13 @@
       .duration(DURATION)
       .style('opacity', 1)
       .style('fill', incomeColor);
-      // .attr('font-size', '1.25em');
+      // .attr('font-size', '1.75em');
 
     tagLineSteps['step' + donutIndex].transition()
       .delay(INTERVAL_DURATION)
       .duration(DURATION)
       .style('fill', darkGrayTextColor);
-      // .attr('font-size', '1.25em');
+      // .attr('font-size', '1.5em');
   }
 
   // ***************************************************************
@@ -428,10 +428,10 @@
       .append('svg')
       .attr('width', '100%')
       .attr('height', '100%')
-      .attr('viewBox', '0,0,' + donutWidth + ',' + donutHeight)
+      .attr('viewBox', '0,0,' + donutWidth + ',' + 50)
       .style('white-space', 'pre-wrap')
       .append('g')
-      .attr('transform', 'translate(50,0)');
+      .attr('transform', 'translate(0,0)');
 
     explanationText.append('g')
       .attr('class', 'explanation-text');
@@ -440,21 +440,20 @@
       explanationText.select('g.explanation-text')
         .append('g')
         .attr('class', 'explanation-step-' + animatedData[i].step)
-        .attr('text-anchor', 'left');
-
-      explanationSteps['step' + animatedData[i].step] = explanationText.select('g.explanation-step-' + animatedData[i].step);
-
-      explanationSteps['step' + animatedData[i].step].attr('dy', ('0.5em'))
+        .attr('dy', '0em')
         .attr('dx', '0em')
-        .attr('font-size', '1.3em')
-        .style('opacity', 0)
         .append('foreignObject')
-        .attr('x', 10)
+        .attr('x', 0)
         .attr('y', 0)
         .attr('width', 650)
         .attr('height', 'auto')
         .append('xhtml:body')
-        // .style('background-color', 'transparent')
+        .attr('class', 'explanation-step-' + animatedData[i].step);
+
+      explanationSteps['step' + animatedData[i].step] = explanationText.select('body.explanation-step-' + animatedData[i].step);
+
+      explanationSteps['step' + animatedData[i].step].attr('font-size', '1.3em')
+        .style('opacity', 0)
         .append('xhtml:div')
         .style('color', darkGrayTextColor)
         .html(function () {
