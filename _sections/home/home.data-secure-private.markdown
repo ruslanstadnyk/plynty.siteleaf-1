@@ -12,13 +12,13 @@ plynty is committed to protecting your private information. We use the latest te
 secure it from unauthorized access.
 
 {% include icon-bullet.html heading="signin safeguards" icon="fa fa-lock" 
-text="Access to your plynty account is protected by authy's multi-factor authentication" %}
+text="access to your plynty account is protected by multi-factor authentication, assisted by [Authy](https://www.authy.com/)." %}
 
 {% include icon-bullet.html heading="bank level data protection" icon="fa fa-bank"
-text="Data 256-bit encryprtion of ... servers ... loren, ipsum cheeseburger" %}
+text="The strongest infrastructure and administrative controls are used to keep your data safe." %}
 
 {% include icon-bullet.html heading="certified by experts" icon="fa fa-thumbs-o-up"
-text="Top cyber experts ... lorem ipsum bacon and cheese grill" %}
+text="Our safeguards for your data are tested and certified by [Veris Group](https://www.verisgroup.com/), a leading cybersecurity firm." %}
 
 {% include icon-bullet.html heading="our pledge" icon="fa fa-heart-o"
-text="We would never ever sell, rent, or share your personal information." %}
+text="We will never sell, rent or share your personal information - ever." %}
