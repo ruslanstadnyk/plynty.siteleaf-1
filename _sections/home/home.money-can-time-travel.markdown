@@ -5,6 +5,7 @@ format: donut
 page: home
 layout: default
 ---
+
 # money can time travel
 {% include animated-donut.html %}
 
