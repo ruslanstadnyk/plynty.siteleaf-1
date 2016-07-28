@@ -1,9 +1,10 @@
 ---
 title: home.money-can-time-travel
 position: 10
-format: big-image
+format: donut
 page: home
-image: money-can-time-travel.png
 layout: default
 ---
+# money can time travel
+{% include animated-donut.html %}
 
