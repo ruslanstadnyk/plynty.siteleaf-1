@@ -12,9 +12,9 @@ plynty is committed to protecting your private information. We use the latest te
 secure it from unauthorized access.
 
 {% include icon-bullet.html heading="signin safeguards" icon="fa fa-lock" 
-text="access to your plynty account is protected by multi-factor authentication, assisted by <a href="https://www.authy.com/" target="_blank">Authy</a> 
+text="Access to your plynty account is protected by multi-factor authentication, assisted by <a href="https://www.authy.com/" target="_blank">Authy</a>.
 
-{% include icon-bullet.html heading="bank level data protection" icon="fa fa-bank"
+{% include icon-bullet.html heading="bank level data protection" icon="fa fa-bank" 
 text="The strongest infrastructure and administrative controls are used to keep your data safe." %}
 
 {% include icon-bullet.html heading="certified by experts" icon="fa fa-thumbs-o-up"
