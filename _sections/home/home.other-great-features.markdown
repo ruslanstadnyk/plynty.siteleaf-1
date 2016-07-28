@@ -19,7 +19,7 @@ Link your investment accounts for a total and up-to-date view of your lifelong c
 {% capture block2 %}
 {% include icon.html icon="fa fa-shopping-cart" %}
 ## shop smart and safe
-Receive personalized quotes from [Raffa Inc.](https://www.raffafinancial.com/), a like-minded partner, who searches top insurers for the best guarantees and price.
+Receive personalized quotes from  [Raffa Inc.](<a href="https://www.raffafinancial.com/" target="_blank">example</a>), a like-minded partner, who searches top insurers for the best guarantees and price.
 {% endcapture %}
 
 {% capture block3 %}
