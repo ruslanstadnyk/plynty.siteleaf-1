@@ -448,6 +448,7 @@
         .attr('width', 650)
         .attr('height', 'auto')
         .append('xhtml:body')
+        .style('background-color', 'transparent')
         .attr('class', 'explanation-step-' + animatedData[i].step);
 
       explanationSteps['step' + animatedData[i].step] = explanationText.select('body.explanation-step-' + animatedData[i].step);
