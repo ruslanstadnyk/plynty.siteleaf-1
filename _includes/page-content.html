@@ -13,8 +13,8 @@
         {% endif %}
 
         {% if section.format == 'image-left' %}
-        <div class="row top-xs">
-          <div class="col-xs-12 col-md-6 center-xs">
+        <div class="row section-wrapper top-xs">
+          <div class="col-xs-12 col-md-6 center-xs start-md">
             <img src="{{section.image}}" style="max-width: 100%; max-height: 500px">
           </div>
           <div class="col-xs-12 col-md-6 center-xs start-md">
@@ -24,18 +24,18 @@
         {% endif %}
 
         {% if section.format == 'image-right' %}
-          <div class="row top-xs center-xs">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm start-md start-lg">
+          <div class="row section-wrapper top-xs center-xs start-md">
+            <div class="col-xs-12 col-md-6">
               <p>{{section.content}}</p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs">
+            <div class="col-xs-12 col-md-6 center-xs end-md">
               <img src="{{section.image}}" style="max-width: 100%; max-height: 500px;">
             </div>
           </div>
         {% endif %}
 
         {% if section.format == 'portrait-left' %}
-        <div class="row top-xs">
+        <div class="row section-wrapper top-xs">
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md middle-xs">
             <img src="{{section.image}}">
           </div>
@@ -46,7 +46,7 @@
         {% endif %}
 
         {% if section.format == 'portrait-right' %}
-        <div class="row top-xs" middle-xs>
+        <div class="row section-wrapper top-xs middle-xs">
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs start-md">
             <p>{{section.content}}</p>
           </div>
@@ -57,7 +57,7 @@
         {% endif %}
 
         {% if section.format == 'full' %}
-          <div class="row middle-xs center-xs">
+          <div class="row section-wrapper middle-xs center-xs">
             <div class="col-xs-12">
               {{section.content}}
             </div>
@@ -65,7 +65,7 @@
         {% endif %}
 
         {% if section.format == 'donut' %}
-          <div class="row middle-xs center-xs">
+          <div class="row section-wrapper middle-xs center-xs">
             <div class="col-xs-12">
               {{section.content}}
             </div>
@@ -73,7 +73,7 @@
         {% endif %}
 
         {% if section.format == 'full-left' %}
-          <div class="row middle-xs start-xs">
+          <div class="row section-wrapper middle-xs start-xs">
             <div class="col-xs-12">
               {{section.content}}
             </div>
@@ -81,13 +81,15 @@
         {% endif %}
 
         {% if section.format == 'photos' %}
-          <div class="row middle-xs center-xs photo-container">
+          <div class="row section-wrapper middle-xs center-xs photo-container">
             {{section.content}}
           </div>
         {% endif %}
 
         {% if section.format == 'three-block' %}
+          <div class="section-wrapper">
             {{section.content}}
+          </div>
         {% endif %}
 
       </section>
