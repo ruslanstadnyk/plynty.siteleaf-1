@@ -383,20 +383,18 @@
       .attr('transform', 'translate(0,0)');
 
     mobileTagLineText.append('g')
-      .attr('width', donutWidth)
+      .attr('text-anchor', 'midle')
       .attr('class', 'tagline-text');
 
     for (var i = 0; i < animatedData.length; i++) {
       mobileTagLineText.select('g.tagline-text')
         .append('text')
-        // .attr('text-anchor', 'midle')
-        .attr('class', 'tagline-step-' + animatedData[i].step)
-        .attr('text-anchor', 'midle');
+        .attr('class', 'tagline-step-' + animatedData[i].step);
 
       mobileTagLineSteps['step' + animatedData[i].step] = mobileTagLineText.select('text.tagline-step-' + animatedData[i].step);
 
-      mobileTagLineSteps['step' + animatedData[i].step].attr('dy', '1em')
-        .attr('dx', '3em')
+      mobileTagLineSteps['step' + animatedData[i].step].attr('y', '1em')
+        .attr('x', '0em')
         .attr('width', donutWidth)
         .attr('font-size', '1.50em')
         .style('font-weight', 'bold')
