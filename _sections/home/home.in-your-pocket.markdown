@@ -3,7 +3,7 @@ title: home.in-your-pocket
 position: 5
 format: big-image
 page: home
-image: "/uploads/in-your-pocket.jpg"
+image: "/uploads/girl-on-the-sofa(16x9).jpg"
 layout: default
 ---
 
