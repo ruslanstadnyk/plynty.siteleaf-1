@@ -12,6 +12,10 @@ $plynty-gray:  #9E9E9E !default;
 $plynty-white: #ffffff !default;
 $plynty-header: #f9f9f7 !default;
 
+$social-twitter: #3b539e !default;
+$social-facebook: #5489d1 !default;
+$social-linkedin: #0077ba !default;
+
 @import "header";
 @import "home";
 @import "aboutus";
@@ -258,6 +262,11 @@ section .row {
   margin: auto !important;
 }
 
+.post-wrapper {
+  max-width: 800px;
+  margin: auto !important;
+}
+
 .icon-bullet h1 {
   font-size: 1.8rem;
   margin-bottom: .5rem;
@@ -275,5 +284,17 @@ i {
 
 .clear {
   clear: both;
+}
+
+.social-twitter {
+  color: $social-twitter;
+}
+
+.social-facebook {
+  color: $social-facebook;
+}
+
+.social-linkedin {
+  color: $social-linkedin;
 }
 

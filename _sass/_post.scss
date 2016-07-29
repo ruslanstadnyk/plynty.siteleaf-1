@@ -3,16 +3,24 @@ article.post {
   margin-right: 3em;
   margin-top: 12rem;
   margin-bottom: 5rem;
+
 }
 
 .post {
+
+  padding-top: 12rem;
 
   .post-header {
     font-size: 2rem;
   }
 
   .post-title {
+    color: $plynty-pink;
+  }
 
+  .social-links {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .post-meta {
