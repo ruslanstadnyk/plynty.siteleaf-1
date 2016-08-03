@@ -3,8 +3,8 @@ title: money fits all
 date: 2016-07-25 16:24:00 Z
 tags:
 - welcome
+image: "/uploads/blog01moneyfitsall.jpg"
 author: plynty
-image: "/uploads/hc42xxu_wog-veeterzy.jpg"
 ---
 
 “There seems to be some perverse human characteristic that likes to make easy things difficult.”
