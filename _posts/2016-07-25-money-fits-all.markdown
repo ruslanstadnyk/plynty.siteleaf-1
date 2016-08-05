@@ -3,7 +3,7 @@ title: money fits all
 date: 2016-07-25 16:24:00 Z
 tags:
 - welcome
-image: "/uploads/blog01moneyfitsall-fc1fc3.jpg"
+image: "/uploads/blog01moneyfitsall.jpg"
 author: plynty
 ---
 
