@@ -276,6 +276,7 @@ section .row {
 .icon-bullet p {
   margin-top: 0;
   font-size: 1.8rem;
+  margin-left: 3rem;
 }
 
 i {
@@ -298,3 +299,50 @@ i {
   color: $social-linkedin;
 }
 
+
+/* Header Image CSS Section */
+
+.headerImage {
+     position:relative;
+}
+.headerImage h1{
+    color:#474747;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.headerImage p {
+    color: #474747;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.headerImage .content {
+    position:absolute;
+    left:230px;
+    top:100px;
+    display:inline-block;
+}
+@media only screen and (max-width: 800px) {
+
+    .headerImage .content {
+        position:relative;
+        left:30px;
+        top: 15px;
+        display: inline-block;
+        text-align:center;
+    }
+
+    .headerImage h1 {
+        font-size: 28px;
+        text-align: left;
+        text-transform: 50% 50%;
+    }
+
+    .headerImage p {
+        font-size: 15px;
+        text-align: left;
+        text-transform: 50% 50%;
+    }
+
+}

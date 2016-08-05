@@ -9,7 +9,10 @@
       <section>
 
         {% if section.format == 'big-image' %}
+        <div class="headerImage">
           <img src="{{section.image}}" width="100%">
+          <span class="content">{{section.content}}</span>
+        </div>
         {% endif %}
 
         {% if section.format == 'image-left' %}
@@ -18,7 +21,9 @@
             <img src="{{section.image}}" style="max-width: 100%; max-height: 500px">
           </div>
           <div class="col-xs-12 col-md-6 center-xs start-md">
+              {%if section.title contains 'home.refreshingly-simple-plan' %} <div class="addPadding"> </div> {% endif %}
             {{section.content}}
+            <div id="plan-is-mobile"><a name="plan-is-mobile"></a></div> <!-- ID for plan is mobile -->
           </div>
         </div>
         {% endif %}
@@ -60,6 +65,7 @@
           <div class="row section-wrapper middle-xs center-xs">
             <div class="col-xs-12">
               {{section.content}}
+              <div id="helping-make-sense"><a name="helping-make-sense"></a></div> <!-- ID location for helping-make-sense -->
             </div>
           </div>
         {% endif %}
