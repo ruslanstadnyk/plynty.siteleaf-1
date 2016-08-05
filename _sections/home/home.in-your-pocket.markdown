@@ -6,6 +6,7 @@ page: home
 image: "/uploads/girl-on-the-sofa.jpg"
 layout: default
 ---
+
 # your financial advisor
 
 in your pocket
