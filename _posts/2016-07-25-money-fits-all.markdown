@@ -20,5 +20,5 @@ We think it can time travel.
 We think it prefers monogamy.
 And it can be balanced—just like your life. 
 
-e-mail us your ideas, and we’ll share our perspective on the thoughts listed above soon.
+E-mail us your ideas, and we’ll share our perspective on the thoughts listed above soon.
 Stay tuned.  
