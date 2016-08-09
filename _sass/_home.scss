@@ -1,23 +1,96 @@
 /* home page styles */
 .home {
-
-  background-color: $plynty-white;
-
-  section:first-child img {
-    display: block;
-  }
-
-  .addPadding{
-      padding-top:1.3rem;
-  }
-
-  .donut h1 {
-    padding-top: 2rem;
-    text-align: center;
-  }
-
-  .donut #bottom-explanation-text {
-    height: auto;
-  }
-
+    background-color: $plynty-white;
+    section:first-child img {
+        display: block;
+    }
+    .addPadding {
+        padding-top: 1.3rem;
+    }
+    .tagline-mobile {
+        margin-bottom: 2rem;
+    }
+    .donut-bullet h1 {
+        font-size: 1.8rem;
+        text-align: left;
+        color: rgba(0,0,0,.87);
+        line-height: 4rem;
+        padding-left: 15px;
+    }
+    .donut-explanation {
+        margin-top: -6rem;
+    }
+    .donut-explanation p {
+        line-height: 0.5rem;
+        text-align: center;
+    }
+    #animated-plynty-donut {
+        margin-top: -4rem;
+    }
+    p i {
+        color: $plynty-green;
+    }
+    .donut-bullet i {
+        color: $plynty-gray;
+    }
+    /* Header Image CSS Section */
+    .headerImage {
+        position: relative;
+    }
+    .headerImage h1 {
+        color: #474747;
+        font-size: 4rem;
+        letter-spacing: 3px;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    .headerImage p {
+        color: #474747;
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    .headerImage .content {
+        position: absolute;
+        left: 33rem;
+        top: 10rem;
+        display: inline-block;
+    }
+    @media only screen and (max-width:1000px) {
+        .headerImage .content {
+            position: absolute;
+            left: 20rem;
+            top: 5rem;
+            display: inline-block;
+            text-align: center;
+        }
+        .headerImage h1 {
+            font-size: 2.8rem;
+            text-align: left;
+            text-transform: 50% 50%;
+        }
+        .headerImage p {
+            font-size: 1.5rem;
+            text-align: left;
+            text-transform: 50% 50%;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .headerImage .content {
+            position: relative;
+            left: 3rem;
+            top: 1.5rem;
+            display: inline-block;
+            text-align: center;
+        }
+        .headerImage h1 {
+            font-size: 2.8rem;
+            text-align: left;
+            text-transform: 50% 50%;
+        }
+        .headerImage p {
+            font-size: 1.5rem;
+            text-align: left;
+            text-transform: 50% 50%;
+        }
+    }
 }
