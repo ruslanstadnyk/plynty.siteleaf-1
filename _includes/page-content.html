@@ -12,23 +12,22 @@
             {% if section.format == 'big-image' %}
                 <div class="headerImage">
                     <img src="{{section.image}}" width="100%">
-                    <span class="content">{{section.content}}</span>
+                    <div class="col-xs-12 col-md-6 start-xs start-md">
+                    <span class="headerImageContent">{{section.content}}</span>
+                  </div>
                 </div>
             {% endif %}
 
             {% if section.format == 'image-left' %}
                 <div class="row section-wrapper top-xs">
-                    <div class="col-xs-12 col-md-6 center-xs start-md">
-                        <img src="{{section.image}}" style="max-width: 100%; max-height: 500px">
+                    <div class="col-xs-12 col-md-6 center-xs middle-md ">
+                        <img src="{{section.image}}" style="max-width: 100%; max-height: 500px;">
                     </div>
                     <div class="col-xs-12 col-md-6 center-xs start-md">
                         {%if section.title contains 'home.refreshingly-simple-plan' %}
                             <div class="addPadding"></div>
                         {% endif %}
                         {{section.content}}
-                        <div id="plan-is-mobile">
-                            <a name="plan-is-mobile"></a>
-                        </div>
                     </div>
                 </div>
             {% endif %}

@@ -1,22 +1,11 @@
-<header class="header">
-
+<header id="header" class="header">
   <div class="section-wrapper">
     <div class="row middle-xs" style="margin: auto;">
 
       <!-- Title -->
       <div class="col-xs-2 top-xs">
-        <!--<span class="title"><img src="/uploads/plynty-logo.png"></span>-->
-        <a href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}"><img src="/uploads/plynty_logo_green.png" width="75" height="75"></a>
+        <a href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}"><img src="/uploads/plynty_logo_whiteoutline.png" width="75" height="75"></a>
       </div>
-
-      <!-- Navigation -->
-      <!--<nav class="col-xs-10 end-xs">
-        <a class="nav-item" href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}">home</a>
-        <a class="nav-item" href="{{"/background.html" | prepend: site.baseurl | prepend: site.url}}">about us</a>
-        <a class="nav-item" href="{{"/blog.html" | prepend: site.baseurl | prepend: site.url}}">blog</a>
-        <a class="nav-item" href="#">get the app</a>
-      </nav>-->
-
       <nav class="col-xs-10 end-xs">
         <ul class="topnav" id="myTopnav">
           <li class="icon">
@@ -25,11 +14,10 @@
           <li><a class="nav-item" href="{{"/index.html#plan-is-mobile" | prepend: site.baseurl | prepend: site.url}}">get the app</a></li>
           <li><a class="nav-item" href="{{"/blog.html" | prepend: site.baseurl | prepend: site.url}}">blog</a></li>
           <li><a class="nav-item" href="{{"/aboutus.html" | prepend: site.baseurl | prepend: site.url}}">about us</a></li>
-          <li><a class="nav-item" href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}">home</a></li>
+          {% if page.url != "/" %}<li><a class="nav-item" href="{{"/index.html" | prepend: site.baseurl | prepend: site.url}}">home</a></li>{% endif %}
         </ul>
       </nav>
 
     </div>
   </div>
-
 </header>
